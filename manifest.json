@@ -1,0 +1,12 @@
+{
+  "name": "test bookmark api",
+  "description": "test bookmark api",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icon": "hello_extensions.png",
+  "action": {
+    "default_icon": "hello_extensions.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "bookmarks"]
+}
